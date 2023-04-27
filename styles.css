@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+}
+
+.nav-bar {
+  position: relative;
+  flex: 1;
+  background-image: url(./img/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+.signup {
+  flex: 2;
+}
+
+.content{
+  position: absolute;
+  display: flex;
+  font-family: norse Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgba(5, 4, 4, 0.473);
+  top: 30%;
+  left: 0;
+  right: 0;
+  justify-content: center;
+}
+.img{
+  width: 100px;
+
+}
+
+.para{
+  font-size: 40px;
+  color: white;
+}
+
+.head{
+  padding-left: 50px;
+  padding-top: 30px;
+}
+
+.para2{
+  font-size: 30px;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.co{
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.sign-text{
+  background-color: rgb(243, 239, 239);
+  margin: 0;
+  padding: 60px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.form-row > div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form{
+  padding-top: 50px;
+  padding-left: 50px;
+
+}
+
+input{
+  padding: 10px 70px;
+  margin-bottom: 40px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid;
+}
+
+label{
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+input:focus{
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.226);
+ border: 1px solid blue;
+}
+
+
+.ctn{
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.267);
+  margin-top: -20px;
+}
+
+.btn-c{
+  padding-left:50px;
+  padding-top: 70px;
+  font-size: 14px;
+}
+
+.btn{
+  padding: 10px 50px;
+  background-color: #596D48;
+  color: white;
+  border: none;
+  font-size: 13px;
+  border-radius: 5px;
+}
+
+.span{
+  color: #3f532e;
+}
+
+.login{
+  margin-top: 40px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
