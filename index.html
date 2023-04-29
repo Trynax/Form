@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <script src="app.js" defer></script>
   <link rel="stylesheet" href="styles.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -46,23 +47,22 @@
               <input type="number" required>
             </div>
           </div>
-          <div class="form-row">
+          <div class="form-row confirm">
             <div>
               <label for="Password">Password</label>
-              <input type="password" required>
+              <input id="pass" type="password" required>
+              <p id="warning"></p>
             </div>
             <div>
               <label for="confirm-password">Confirm Password</label>
-              <input type="password" required>
+              <input id="con" type="password" required>
             </div>
           </div>
         </div>
         <div class="btn-c">
-          <button class="btn" type="submit">Create Account</button>
+          <button id="btnJ" class="btn" type="reset">Create Account</button>
           <p class="login">Already have an account? <span class="span"> Log In</span></p>
-     
         </div>
-          
        </form>
     </div>
   </main>
