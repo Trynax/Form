@@ -22,43 +22,48 @@
           <p class="co">You know You want to.</p>
       </div>
       <div class="ctn">
-        <h1 class="head">Let's do this!</h1>
         <form class="form" action="#" method="get">
-          <div class="form-row">
-            <div>
-              <label for="First_Name">First Name</label>
-              <input type="text" required>
+          <div class="form-text">
+            <h1 class="head">Let's do this!</h1>
+            <div class="form-input">
+              <div class="form-row">
+                <div>
+                  <label for="First_Name">First Name</label>
+                  <input type="text" required>
+                </div>
+                <div>
+                  <label for="Last_Name">Last Name</label>
+                  <input type="text" required>
+                </div>
+              </div>
+              <div class="form-row">
+                <div>
+                  <label for="email">Email</label>
+                  <input type="email" required>
+                </div>
+                <div>
+                  <label for="Phone_number">Phone Number</label>
+                  <input type="tel" required>
+                </div>
+              </div>
+              <div class="form-row confirm">
+                <div>
+                  <label for="Password">Password</label>
+                  <input id="pass" type="password" required>
+                  <p id="warning"></p>
+                </div>
+                <div>
+                  <label for="confirm-password">Confirm Password</label>
+                  <input id="con" type="password" required>
+                </div>
+              </div>
             </div>
-            <div>
-              <label for="Last_Name">Last Name</label>
-              <input type="text" required>
             </div>
+           
+          <div class="btn-c">
+            <button id="btnJ" class="btn" type="submit">Create Account</button>
+            <p class="login">Already have an account? <a class="span" href="#">Log In</a></p>
           </div>
-          <div class="form-row">
-            <div>
-              <label for="email">Email</label>
-              <input type="email" required>
-            </div>
-            <div>
-              <label for="Phone_number">Phone Number</label>
-              <input type="tel" required>
-            </div>
-          </div>
-          <div class="form-row confirm">
-            <div>
-              <label for="Password">Password</label>
-              <input id="pass" type="password" required>
-              <p id="warning"></p>
-            </div>
-            <div>
-              <label for="confirm-password">Confirm Password</label>
-              <input id="con" type="password" required>
-            </div>
-          </div>
-        </div>
-        <div class="btn-c">
-          <button id="btnJ" class="btn" type="submit">Create Account</button>
-          <p class="login">Already have an account? <a class="span" href="#">Log In</a></p>
         </div>
        </form>
     </div>
